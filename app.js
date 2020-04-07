@@ -13,14 +13,6 @@ const handleChange = (event) => {
 
 const handleSubmit = (event) => {
     event.preventDefault();
-    // One way to do it:
-    // let name = document.getElementById("name").value;
-    // let email = document.getElementById("email").value;
-    
-    // user.name = name;
-    // user.email = email;
-
-    // Better way to do it:
 
     alert(`This is the ${user.name} and the ${user.email}`);
 }
