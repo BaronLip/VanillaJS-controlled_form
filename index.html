@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VanillaJS-controlled_form</title>
+</head>
+<body>
+    <form id="form" onsubmit="handleSubmit(event)">
+        <label>Name:</label>
+        <input id="name" name="name" oninput="handleChange(event)">
+        <br>
+    
+        <label>Email:</label>
+        <input id="email" name="email" oninput="handleChange(event)">
+        <br>
+    
+        <input type="submit" value="Submit"></input>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
